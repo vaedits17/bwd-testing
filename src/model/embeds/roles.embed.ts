@@ -79,6 +79,7 @@ export function getRoleInformationFirstPage(
 		.addActionRowComponents(row);
 }
 
+// Testing changes for the documentation
 export function getCategoryContent(
 	selection: string,
 	interaction: RepliableInteraction,
