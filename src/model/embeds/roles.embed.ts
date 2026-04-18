@@ -21,7 +21,7 @@ const CATEGORY_HANDLERS: Record<string, CategoryHandler> = {
 	events: getEventsCategory,
 	legacy: getLegacyCategory,
 };
-
+// testing comment
 function roleMention(roleId?: string): string {
 	return roleId ? `<@&${roleId}>` : "@deleted-role";
 }
